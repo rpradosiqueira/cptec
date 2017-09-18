@@ -17,10 +17,8 @@ This function allows the user to discover which are
 the city's ID of interest.
 }
 \examples{
-\dontrun{
 ## Looking for the city of Campo Grande
 listaCidades("campo grande")
-}
 
 }
 \seealso{

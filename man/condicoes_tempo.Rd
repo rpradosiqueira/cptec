@@ -13,9 +13,7 @@ The function returns a sigle data frame.
 Data frame containing "tempo" descriptions
 }
 \examples{
-\dontrun{
 condicoes_tempo()
-}
 
 }
 \seealso{

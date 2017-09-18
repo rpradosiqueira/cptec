@@ -19,10 +19,8 @@ The data frame returned contain maximum and minimum
 temperature, ultra violet index and weather condition.
 }
 \examples{
-\dontrun{
 ## Requesting weather forecast from the city of Campo Grande/MS
 prev7dias(225)
-}
 
 }
 \seealso{
