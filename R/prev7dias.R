@@ -11,10 +11,8 @@
 #' @author  Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
 #' @seealso \code{\link{prev7dias}}
 #' @examples
-#' \dontrun{
 #' ## Requesting weather forecast from the city of Campo Grande/MS
 #' prev7dias(225)
-#' }
 #'
 #' @keywords weather forecast brazil
 #' @export
