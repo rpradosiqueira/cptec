@@ -1,6 +1,6 @@
 Package: cptec
 Type: Package
-Title: An interface to the CPTEC/INPE API
+Title: An Interface to the CPTEC/INPE API
 Version: 0.1.0
 Authors@R: person("Renato", "Prado Siqueira", email = "rpradosiqueira@gmail.com", role = c("aut", "cre"))
 Maintainer: Renato Prado Siqueira <rpradosiqueira@gmail.com>
@@ -11,6 +11,7 @@ Description: The package allows the user to retrieve data from the
     climate forecasting center in Latin America, with high-precision short
     and medium-term weather forecasting since the beginning of 1995. See
     <http://www.cptec.inpe.br/> for more information.
+Depends: R (>= 3.2.0)
 LazyData: true
 License: GPL-3
 Encoding: UTF-8
@@ -21,3 +22,4 @@ Imports:
     rvest,
     xml2,
 RoxygenNote: 6.0.1
+Suggests: knitr
