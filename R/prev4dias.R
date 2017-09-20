@@ -12,10 +12,11 @@
 #' @author  Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
 #' @seealso \code{\link{prev7dias}}
 #' @examples
-#' \dontrun{
 #' ## Requesting weather forecast from the city of Campo Grande/MS
 #' prev4dias(225)
-#' }
+#'
+#' ## Requesting weather forecast from the city of Rio de Janeiro/RJ
+#' prev4dias(241)
 #'
 #' @keywords weather forecast brazil
 #' @export

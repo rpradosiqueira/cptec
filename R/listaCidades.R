@@ -12,6 +12,9 @@
 #' ## Looking for the city of Campo Grande
 #' listaCidades("campo grande")
 #'
+#' ## Looking for the city of Rio de Janeiro
+#' listaCidades("rio de janeiro")
+#'
 #' @keywords weather forecast brazil
 #' @export
 

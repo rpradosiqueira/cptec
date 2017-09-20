@@ -21,10 +21,8 @@
 #' @author  Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
 #' @seealso \code{\link{iuv}}
 #' @examples
-#' \dontrun{
 #' ## Requesting sea waves' forecast from the city of Rio de Janeiro/RJ
 #' ondas(241)
-#' }
 #'
 #' @keywords wave forecast brazil litoral
 #' @export

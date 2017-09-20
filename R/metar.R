@@ -11,10 +11,11 @@
 #' @author  Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
 #' @seealso \code{\link{estacoes_metar}}
 #' @examples
-#' \dontrun{
 #' ## Requesting weather condition from SBGR and SBTK stations
 #' metar(c("SBGR", "SBTK"))
-#' }
+#'
+#' ## Requesting weather condition from SBVG (Varginha) station
+#' metar("SBVG")
 #'
 #' @keywords weather forecast brazil
 #' @export

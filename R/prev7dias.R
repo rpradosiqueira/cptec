@@ -14,6 +14,9 @@
 #' ## Requesting weather forecast from the city of Campo Grande/MS
 #' prev7dias(225)
 #'
+#' ## Requesting weather forecast from the city of Rio de Janeiro/RJ
+#' prev7dias(241)
+#'
 #' @keywords weather forecast brazil
 #' @export
 
