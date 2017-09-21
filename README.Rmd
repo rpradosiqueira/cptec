@@ -14,6 +14,9 @@ knitr::opts_chunk$set(
 
 # cptec
 
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/cptec)](https://CRAN.R-project.org/package=cptec)
+[![CRAC\_Downloads](https://cranlogs.r-pkg.org/badges/grand-total/cptec)](https://CRAN.R-project.org/package=cptec)
+
 The goal of *cptec* is to allows the user to retrieve data from the
 CPTEC/INPE weather forecast API. CPTEC stands for 'Centro de Previsão 
 de Tempo e Estudos Climáticos' and INPE for 'Instituto Nacional de 
@@ -81,9 +84,9 @@ capitais           It allows the user to retrieve data from
 
 Let's assume that we want the next 7 days weather forecast for the city of Rio de Janeiro/RJ. To do this simply execute:
 
-```{r, eval = FALSE}
+```{r}
 library(cptec)
 
-prev7days(id = 241)
+prev7dias(id = 241)
 
 ```

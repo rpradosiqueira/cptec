@@ -1,6 +1,8 @@
 cptec
 =====
 
+[![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/cptec)](https://CRAN.R-project.org/package=cptec) [![CRAC\_Downloads](https://cranlogs.r-pkg.org/badges/grand-total/cptec)](https://CRAN.R-project.org/package=cptec)
+
 The goal of *cptec* is to allows the user to retrieve data from the CPTEC/INPE weather forecast API. CPTEC stands for 'Centro de Previsão de Tempo e Estudos Climáticos' and INPE for 'Instituto Nacional de Pesquisas Espaciais'. CPTEC is the most advanced numerical weather and climate forecasting center in Latin America, with high-precision short and medium-term weather forecasting since the beginning of 1995. See <http://www.cptec.inpe.br/> for more information.
 
 Installation
@@ -68,5 +70,12 @@ Let's assume that we want the next 7 days weather forecast for the city of Rio d
 ``` r
 library(cptec)
 
-prev7days(id = 241)
+prev7dias(id = 241)
+#>           cidade uf atualizacao        dia tempo maxima minima iuv
+#> 1 Rio de Janeiro RJ  2017-09-21 2017-09-22    vn     33     17   9
+#> 2 Rio de Janeiro RJ  2017-09-21 2017-09-23    pn     33     18   9
+#> 3 Rio de Janeiro RJ  2017-09-21 2017-09-24    vn     35     17   9
+#> 4 Rio de Janeiro RJ  2017-09-21 2017-09-25    pn     27     17   9
+#> 5 Rio de Janeiro RJ  2017-09-21 2017-09-26    vn     31     17   9
+#> 6 Rio de Janeiro RJ  2017-09-21 2017-09-27    vn     32     17   9
 ```
