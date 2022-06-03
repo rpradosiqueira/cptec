@@ -6,6 +6,13 @@
 #' The data frame returned contain maximum and minimum
 #' temperature, ultra violet index and weather condition.
 #'
+#'
+#' This function allows the user to retrieve data from
+#' CPTEC/INPE weather forecast API for the next 7 days
+#' informing latitude and longitude of the local.
+#' The data frame returned contain maximum and minimum
+#' temperature, ultra violet index and weather condition.
+#'
 #' @usage prevLatLon(lat, lon)
 #' @param lat The latitude numeric/character vector
 #' @param lon The longitude numeric/character vector
@@ -18,10 +25,16 @@
 #' prevLatLon("-20.432257", "-54.569751")
 #' }
 #'
+#'
 #' @keywords weather forecast brazil
 #' @export
 
 prevLatLon <- function(lat, lon) {
+
+  if (length(lat) != 1 | length(lon) != 1) stop("The 'lat' and 'lon' argument must be of length 1, in this order")
+
+  url1 <- xml2::read_xml(paste0("http://servicos.cptec.inpe.br/XML/cidade/7dias/", lat, "/", lon,"/previsaoLatLon.xml"))
+
 
   if (length(lat) != 1 | length(lon) != 1) stop("The 'lat' and 'lon' argument must be of length 1, in this order")
 
