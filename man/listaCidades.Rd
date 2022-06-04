@@ -20,12 +20,15 @@ the city's ID of interest.
 ## Looking for the city of Campo Grande
 listaCidades("campo grande")
 
+## Looking for the city of Rio de Janeiro
+listaCidades("rio de janeiro")
+
 }
 \seealso{
 \code{\link{prev4dias}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

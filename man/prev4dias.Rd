@@ -20,17 +20,18 @@ temperature, ultra violet index and weather condition
 (tempo).
 }
 \examples{
-\dontrun{
 ## Requesting weather forecast from the city of Campo Grande/MS
 prev4dias(225)
-}
+
+## Requesting weather forecast from the city of Rio de Janeiro/RJ
+prev4dias(241)
 
 }
 \seealso{
 \code{\link{prev7dias}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

@@ -13,14 +13,19 @@ The function returns a sigle data frame.
 Data frame containing "tempo" descriptions
 }
 \examples{
+
+\dontrun{
+
 condicoes_tempo()
+
+}
 
 }
 \seealso{
 \code{\link{estacoes_metar}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

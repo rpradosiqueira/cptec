@@ -15,21 +15,22 @@ The function returns a data frame printed by city id
 \description{
 This function allows the user to retrieve data from
 CPTEC/INPE weather forecast API for the next 14 days.
-The data frame returned contain maximum and minimum 
+The data frame returned contain maximum and minimum
 temperature and weather condition (tempo).
 }
 \examples{
-\dontrun{
 ## Requesting weather forecast from the city of Campo Grande/MS
 prevEstendida(225)
-}
+
+## Requesting weather forecast from the city of Rio de Janeiro/RJ
+prevEstendida(241)
 
 }
 \seealso{
 \code{\link{prev7dias}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

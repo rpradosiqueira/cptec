@@ -12,21 +12,19 @@ The function returns a data frame
 \description{
 This function allows the user to retrieve data from
 CPTEC/INPE current weather conditions of capitals.
-The data frame returned contain actual temperature, 
+The data frame returned contain actual temperature,
 atmospheric pressure, humidity, direction and wind
 intensity
 }
 \examples{
-\dontrun{
 capitais()
-}
 
 }
 \seealso{
 \code{\link{prev4dias}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

@@ -13,16 +13,14 @@ The function returns a sigle data frame.
 Data frame containing "Metar" initials and descriptions
 }
 \examples{
-\dontrun{
 estacoes_metar()
-}
 
 }
 \seealso{
 \code{\link{condicoes_tempo}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

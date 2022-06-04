@@ -31,17 +31,15 @@ The \code{dia} argument can be set to:
      }
 }
 \examples{
-\dontrun{
 ## Requesting sea waves' forecast from the city of Rio de Janeiro/RJ
 ondas(241)
-}
 
 }
 \seealso{
 \code{\link{iuv}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

@@ -9,12 +9,15 @@
 #' @author  Renato Prado Siqueira \email{rpradosiqueira@@gmail.com}
 #' @seealso \code{\link{prevEstendida}}
 #' @examples
+#'
+#' \dontrun{
 #' ## Requesting the last updated of the ultra violet index drom Campo Grande/MS
 #' iuv(225)
 #'
 #' ## The same for the city of Rio de Janeiro
 #' iuv(241)
 #'
+#' }
 #' @keywords weather forecast brazil ultra violet index
 #' @export
 

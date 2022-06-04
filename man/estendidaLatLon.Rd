@@ -18,21 +18,19 @@ The function returns a data frame printed by the parameters input
 This function allows the user to retrieve data from
 CPTEC/INPE weather forecast API for the next 14 days
 informing latitude and longitude of the local.
-The data frame returned contain maximum and minimum 
+The data frame returned contain maximum and minimum
 temperature, ultra violet index and weather condition.
 }
 \examples{
-\dontrun{
 ## Requesting weather forecast with a latitude/longitude information
 prevLatLon("-20.432257", "-54.569751")
-}
 
 }
 \seealso{
 \code{\link{prevEstendida}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

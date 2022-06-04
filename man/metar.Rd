@@ -19,17 +19,18 @@ available by the meteorological network of the
 Aeronautics Command - REDEMET
 }
 \examples{
-\dontrun{
 ## Requesting weather condition from SBGR and SBTK stations
 metar(c("SBGR", "SBTK"))
-}
+
+## Requesting weather condition from SBVG (Varginha) station
+metar("SBVG")
 
 }
 \seealso{
 \code{\link{estacoes_metar}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}

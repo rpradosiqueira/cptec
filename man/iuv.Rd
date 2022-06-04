@@ -13,21 +13,25 @@ iuv(id)
 The function returns a data frame printed by city id
 }
 \description{
-This function allows the user to retrieve the last updated 
+This function allows the user to retrieve the last updated
 data from CPTEC/INPE ultra violet index for a determined city
 }
 \examples{
+
 \dontrun{
 ## Requesting the last updated of the ultra violet index drom Campo Grande/MS
 iuv(225)
-}
 
+## The same for the city of Rio de Janeiro
+iuv(241)
+
+}
 }
 \seealso{
 \code{\link{prevEstendida}}
 }
 \author{
-Renato Prado Siqueira \email{<rpradosiqueira@gmail.com>}
+Renato Prado Siqueira \email{rpradosiqueira@gmail.com}
 }
 \keyword{brazil}
 \keyword{forecast}
