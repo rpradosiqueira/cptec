@@ -23,7 +23,7 @@ de Tempo e Estudos Climáticos' and INPE for 'Instituto Nacional de
 Pesquisas Espaciais'. CPTEC is the most advanced numerical weather and 
 climate forecasting center in Latin America, with high-precision short
 and medium-term weather forecasting since the beginning of 1995. See
-<http://www.cptec.inpe.br/> for more information.
+<https://www.cptec.inpe.br/> for more information.
 
 ## Installation
 

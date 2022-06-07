@@ -3,7 +3,7 @@ cptec
 
 [![CRAN\_Status\_Badge](https://www.r-pkg.org/badges/version/cptec)](https://CRAN.R-project.org/package=cptec) [![CRAC\_Downloads](https://cranlogs.r-pkg.org/badges/grand-total/cptec)](https://CRAN.R-project.org/package=cptec)
 
-The goal of *cptec* is to allows the user to retrieve data from the CPTEC/INPE weather forecast API. CPTEC stands for 'Centro de Previsão de Tempo e Estudos Climáticos' and INPE for 'Instituto Nacional de Pesquisas Espaciais'. CPTEC is the most advanced numerical weather and climate forecasting center in Latin America, with high-precision short and medium-term weather forecasting since the beginning of 1995. See <http://www.cptec.inpe.br/> for more information.
+The goal of *cptec* is to allows the user to retrieve data from the CPTEC/INPE weather forecast API. CPTEC stands for 'Centro de Previsão de Tempo e Estudos Climáticos' and INPE for 'Instituto Nacional de Pesquisas Espaciais'. CPTEC is the most advanced numerical weather and climate forecasting center in Latin America, with high-precision short and medium-term weather forecasting since the beginning of 1995. See <https://www.cptec.inpe.br/> for more information.
 
 Installation
 ------------
